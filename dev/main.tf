@@ -3,6 +3,6 @@ variable "dummy" {
 }
 
 module "null" {
-  source = "../module"
+  source = "../../module"
   dummy = var.dummy
 }
